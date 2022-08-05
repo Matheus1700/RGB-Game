@@ -1,0 +1,77 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    font: 25pt normal Arial;
+    font-family: sans-serif
+}
+
+div.main-words{
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(240, 58, 103);
+}
+
+section.container{
+    text-align: center;
+}
+
+span#rgb{
+    display: block;
+    font-size: 2rem;
+}
+
+span#subtitle{
+    font-size: 1.1rem;
+}
+
+
+div.options{
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30%;
+    background-color: white;
+}
+
+div.options button{
+    height: 100%;
+    transition: 0.4s;
+    font-size: 0.6rem;
+    border: 0pt solid rgba(0, 0, 0, 0);
+    color: rgb(153, 153, 153);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+div.options button:hover{
+    transition: 0.4s;
+    color: white;
+    background-color: rgb(240, 58, 103);
+}
+
+div.wrapper{
+    height: auto;
+    padding: 1% 0;
+    background-color: black;
+}
+
+div.div-container{
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 0.5cm;
+    row-gap: 0.5cm;
+    margin-left: 25%;
+}
+
+div.rgb-div{
+    height: 30vh;
+    width: 15vw;
+    border-radius: 15pt;
+    background-color: purple;
+}
+
+#div-1{grid-row: 1;} #div-2{grid-row: 1;} #div-3{grid-row: 1;} #div-4{grid-row: 2;} #div-5{grid-row: 2;} #div-6{grid-row: 2;}

@@ -1,0 +1,30 @@
+Primeiro passo: Randomizar um rgb(255, 255, 255) - DONE
+
+
+Segundo Passo: colocar esse rgb no texto pra o jogador 
+reconher (Com transition) -- Done
+
+
+Terceiro Passo: Criar um Array com as divs -- Done
+
+
+Quarto Passo: Randomizar uma div que receber� esse rgb
+(com transition) -- Done
+
+
+Quinto Passo: Randomizar estilos para todas as outras 
+divs -- Done
+
+
+Sexto Passo: Quando acertar, mudar a cor de todas
+as divs para a cor correta -- Done
+
+
+Setimo passo: Remover as divs que n�o corresponde ao rgb
+(com transition) -- Done
+
+
+Oitavo Passo: Botão "Novas Cores" -- Done
+
+
+Nono passo: Adicionar o modo difícil
